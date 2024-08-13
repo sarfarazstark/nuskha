@@ -1,4 +1,3 @@
-import icons from 'url:../../img/icons.svg';
 import View from './view';
 
 class SearchResultView extends View {
