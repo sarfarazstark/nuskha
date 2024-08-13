@@ -61,3 +61,17 @@ export const getSearchResultPage = function (page = state.search.page) {
 
   return state.search.result.slice(start, end);
 };
+
+export const updateServings = function (newServings) {
+  const recipeCopy = structuredClone(state.recipe);
+
+  recipeCopy.ingredients.forEach(ingredient => {
+    ingredient.quantity =
+      (ingredient.quantity * newServings) / recipeCopy.servings;
+    //
+  });
+
+  recipeCopy.servings = newServings;
+
+  return recipeCopy;
+};
