@@ -19,9 +19,13 @@
   <p align="center">
     <a href="https://nuskha.netlify.app/">View Demo</a>
     ·
+    <a href="https://app.netlify.com/sites/nuskha/deploys"><img src="https://api.netlify.com/api/v1/badges/a1969b47-5024-46ce-ad19-bbab4ea59f1e/deploy-status"></a>
+    ·
     <a href="https://github.com/sarfarazstark/nuskha/issues">Report Bug</a>
   </p>
 </div>
+
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
