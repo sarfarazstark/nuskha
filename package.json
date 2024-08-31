@@ -5,7 +5,7 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ../build"
+    "build": "parcel build index.html --dist-dir ./build"
   },
   "author": "Md Sarfaraz Alam",
   "license": "ISC",
