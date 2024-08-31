@@ -1,4 +1,3 @@
-import icons from 'url:../../img/icons.svg';
 import View from './view';
 
 class AddRecipeView extends View {
@@ -38,8 +37,6 @@ class AddRecipeView extends View {
       handler(data);
     });
   }
-
-  _generateMarkup() {}
 }
 
 export default new AddRecipeView();
