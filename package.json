@@ -1,21 +1,21 @@
 {
-  "name": "nushkha",
+  "name": "nuskha",
   "version": "1.0.0",
   "description": "Recipe finder and manager application",
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./build"
+    "build": "parcel build index.html --dist-dir ../build"
   },
   "author": "Md Sarfaraz Alam",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.38.0",
+    "fracty": "^1.0.11",
     "parcel": "^2.12.0",
     "regenerator-runtime": "^0.14.1"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.12.0",
-    "fractional": "^1.0.0"
+    "@parcel/transformer-sass": "^2.12.0"
   }
 }
