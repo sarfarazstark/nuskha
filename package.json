@@ -2,9 +2,10 @@
   "name": "nushkha",
   "version": "1.0.0",
   "description": "Recipe finder and manager application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./build"
   },
   "author": "Md Sarfaraz Alam",
   "license": "ISC",
